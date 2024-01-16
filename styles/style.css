@@ -149,59 +149,129 @@ main {
     font-weight: 800;
 
 }
-.popular-tour-container button{
+
+.popular-tour-container button {
     margin-top: 30px;
 }
-.popular-tour-container li{
+
+.popular-tour-container li {
     margin-bottom: 20px;
 }
-.popular-tour-container ul{
+
+.popular-tour-container ul {
     margin-top: 30px;
     /* text-align: center; */
     /* margin-left: 30px; */
 }
+
 /* choose your destination */
-.destination-about{
+.destination-about {
     text-align: center;
 }
-.destination-container{
+
+.destination-container {
     text-align: center;
 }
-.destination-img-1{
+
+.destination-img-1 {
     display: flex;
     margin-left: 60px;
     margin-bottom: 5px;
 }
-.destination-img-1 img{
+
+.destination-img-1 img {
     width: 570px;
     margin-right: 10px;
 }
-.destination-img-2{
+
+.destination-img-2 {
     display: flex;
     gap: 50px;
     /* margin-bottom: 20px; */
 }
-.destination-img-2 img{
+
+.destination-img-2 img {
     width: 380px;
 }
-.destination-img-3{
+
+.destination-img-3 {
     display: flex;
     /* margin-top: 20px; */
     /* padding-top: 50px; */
 }
-.destination-img-3 img{
+
+.destination-img-3 img {
     width: 570px;
     /* margin-top: 30px; */
 }
-.destination-h3{
+
+.destination-h3 {
     color: #131318;
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 }
-.destination-section{
+
+.destination-section {
     margin-top: 150px;
 }
 
+/* why choose section */
+.why-choose-h3 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.why-choose-title {
+    text-align: center;
+}
+
+.Handpicked {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 50px;
+}
+
+.Handpicked h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.world-class {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 50px;
+}
+
+.world-class h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.collide {
+    display: flex;
+    gap: 20px;
+    margin: 40px 50px;
+}
+.best-price{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+width: 570px;
+padding: 50px;
+margin: 10px auto;
+/* text-align: center; */
+/* height: 280px; */
+}
+.best-price h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
 
 
 
@@ -230,7 +300,8 @@ font-weight: 800;
     .nav-title .the-earth {
         font-size: 18px;
     }
-    main{
+
+    main {
         max-width: 600px;
         margin-top: 50px;
     }
@@ -280,75 +351,105 @@ font-weight: 800;
         align-items: center;
         margin-top: 10px;
     }
+
     /* tour */
-    .popular-tour-container{
+    .popular-tour-container {
         flex-direction: column;
         /* margin-left: 20px; */
     }
-    .popular-h3{
+
+    .popular-h3 {
         font-size: 20px;
     }
-    .popular-tour-container p{
+
+    .popular-tour-container p {
         font-size: 12px;
     }
-    .popular-tour-container ul{
+
+    .popular-tour-container ul {
         font-size: 10px;
     }
-    .popular-tour-container img{
+
+    .popular-tour-container img {
         width: 90%;
     }
-    .popular-tour-container{
+
+    .popular-tour-container {
         margin-left: 20px;
         gap: 20px;
     }
+
     /* destination */
-    .destination-section{
+    .destination-section {
         max-width: 400px;
         margin-top: 30px;
     }
-    .destination-img-1{
+
+    .destination-img-1 {
         flex-direction: column;
         margin-left: 0;
         gap: 20px;
     }
-    .destination-img-1 > img{
+
+    .destination-img-1>img {
         max-width: 400px;
     }
-    
-    .destination-img-2{
+
+    .destination-img-2 {
         flex-direction: column;
         gap: 20px;
         margin-left: 0px;
     }
-    .destination-img-2 > img{
+
+    .destination-img-2>img {
         max-width: 400px;
 
     }
-    .rec-7{
+
+    .rec-7 {
         width: 400px;
     }
-    .rec-6{
+
+    .rec-6 {
         width: 400px;
     }
-    .rec-8{
+
+    .rec-8 {
         width: 400px;
+    }
+
+    .destination-img-3 {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 0px;
+    }
+
+    .destination-img-3>img {
+        width: 400px;
+    }
+
+    .rec-10 {
+        width: 400px;
+    }
+
+    .rec-11 {
+        width: 400px;
+    }
+    /* why choose us */
+
+    .collide{
+        flex-direction: column;
+        margin: 20px 10px;
+    }
+    .best-price{
+        width: 280px;
+    }
+    .world-class{
+        width: 280px;
+    }
+    .Handpicked{
+        width: 280px;
     }
    
-    .destination-img-3{
-        flex-direction: column;
-        gap: 20px;
-        margin-left: 0px;
-    }
-    .destination-img-3 > img{
-        width: 400px;
-    }
-    .rec-10{
-        width: 400px;
-    }
-    .rec-11{
-        width: 400px;
-    }
-    
-
 
 }
