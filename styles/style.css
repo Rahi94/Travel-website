@@ -352,8 +352,9 @@ main {
     height: 120px;
     color: #FFF;
     border-radius: 16px;
-    margin-left: 280px;
-    margin-top: -150px;
+    margin-left: 275px;
+    margin-top: -200px;
+    transform: rotate(-19.628deg);
     
     filter: brightness(100%);
 
@@ -662,8 +663,8 @@ line-height: normal;
     width: 400px;
    }
    .travel{
-    margin-left: 150px;
-    margin-top: -150px;
+    margin-left: 140px;
+    margin-top: -190px;
     width: 250px;
     /* height: 80px; */
    }
