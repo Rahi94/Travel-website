@@ -588,6 +588,21 @@ margin-top: 15px;
     .simple-place-about {
         text-align: left;
     }
+    /* newsletter */
+    .newsletter-container{
+        flex-direction: column;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+   .newsletter-img img{
+    width: 400px;
+   }
+   .travel{
+    margin-left: 150px;
+    margin-top: -150px;
+    width: 250px;
+    /* height: 80px; */
+   }
 
 
 }
